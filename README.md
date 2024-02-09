@@ -1,9 +1,8 @@
-# MCTS-UCT Connect 4 Demo
+# MCTS-UCT Agent in JavaScript for Connect 4
 
-Represents a "Board" state as an array of 6 sub-arrays, length 7, with each sub-array representing a Row, from top to bottom, of a 6x7 (Height x Width or Row X Column) Board.
+The game represents a "Board" state as an array of 6 sub-arrays, length 7, with each sub-array representing a Row, from top to bottom, of a 6x7 (Height x Width or Row X Column) Board.
 
-Plays an entire game of Connect 4, printing each new Board with simulation results per turn.
-Then outputs the winner (Player 1 or Player 2).
+Plays an entire game of Connect 4, printing each new Board with simulation results per turn, then outputs the winner (Player 1 or Player 2).
 
 ## Loading
 
