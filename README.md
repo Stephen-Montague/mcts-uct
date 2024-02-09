@@ -7,7 +7,7 @@ Plan to test several variants of Monte Carlo Tree Search (MCTS) here, including 
 
 An MCTS-UCT agent in JavaScript plays both sides of Connect 4.
 
-The game represents a "Board" state as an array of 6 sub-arrays (length 7) of numbers (0 = empty, 1 = player1, 2 = player2), with each sub-array representing a Row, from top to bottom, of a 6x7 Board, that is, 6 Rows X 7 Columns.
+The game represents a "Board" state as an array of 6 sub-arrays (length 7) of numbers (0 = empty, 1 = player1, 2 = player2), with each sub-array representing a Row, from top to bottom, of a 6x7 Board, that is, 6 Rows x 7 Columns.
 
 Plays an entire game of Connect 4, printing each new Board with simulation results per turn, then outputs the winner, Player 1 or Player 2.
 
