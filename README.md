@@ -1,6 +1,4 @@
-# medium-mcts
-
-MCTS-UCT: Connect 4 Demo
+# MCTS-UCT Connect 4 Demo
 
 Represents a "Board" state as an array of 6 sub-arrays, length 7, with each sub-array representing a Row, from top to bottom, of a 6x7 (Height x Width or Row X Column) Board.
 
