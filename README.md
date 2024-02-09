@@ -1,4 +1,17 @@
 # medium-mcts
-Demo code to accompany [Medium article](https://medium.com/@quasimik/implementing-monte-carlo-tree-search-in-node-js-5f07595104df)
+
+MCTS-UCT: Connect 4 Demo
+
+Represents a "Board" state as an array of 6 sub-arrays, length 7, with each sub-array representing a Row, from top to bottom, of a 6x7 (Height x Width or Row X Column) Board.
+
+Plays an entire game of Connect 4, printing each new Board with simulation results per turn.
+Then outputs the winner (Player 1 or Player 2).
+
+## Loading
+
+Install node and run command in terminal:
+
+  node index.js
 
 Developed and tested on node.js 8.11.3 LTS
+Code by Michael Liu, use under MIT license.
